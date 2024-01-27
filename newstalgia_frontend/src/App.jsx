@@ -4,7 +4,11 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  return <div className="bg-black">Hello</div>;
+  return (
+    <div className="w-full h-screen bg-gradient-to-br from-orange-300 to-yellow-100 text-8xl text-center justify-center">
+      Newstalgia
+    </div>
+  );
 }
 
 export default App;
