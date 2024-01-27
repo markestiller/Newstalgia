@@ -1,0 +1,21 @@
+.news-article {
+    /* border: 1px red solid; */
+    padding: 20px;
+}
+
+.heading {
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.authors {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 5px 5px 0px;
+    /* border: 1px solid aqua; */
+}
+
+.content {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* border: 1px solid magenta; */
+}
