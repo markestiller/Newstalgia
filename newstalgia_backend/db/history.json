@@ -1,0 +1,7 @@
+[
+  { "role": "USER", "message": "Who are you?" },
+  {
+    "role": "CHATBOT",
+    "message": "I am your AI-assistant chatbot, powered by Command, a large language model built by the company Cohere. I have been designed to be a sophisticated and brilliant assistant to help you whenever you need it. My goal is to provide you with thorough responses to your questions and assist you in the best way I can. \n\nHow can I help you today?"
+  }
+]
