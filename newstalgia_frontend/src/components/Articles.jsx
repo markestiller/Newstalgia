@@ -1,6 +1,5 @@
 import { useState } from "react";
-import "./NewsArticle.css";
-import PropTypes from 'prop-types';
+import "./Articles.css";
 import NewsArticle from "./newsArticle";
 
 const Articles = () => {
