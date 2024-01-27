@@ -1,14 +1,14 @@
 import { useState } from "react";
-import "./NewswArticle.css";
+import "./NewsArticle.css";
 import PropTypes from 'prop-types';
 
 const NewsArticle = ({ heading, author, text, image }) => {
   return (
     <div className="news-article">
-      <img src={image} alt="Article" />
-      <h2>{heading}</h2>
-      <p><strong>Author:</strong> {author}</p>
-      <p>{text}</p>
+        <h2>{heading}</h2>
+        <img src={image} alt="Article" />
+        <p><strong>Author:</strong> {author}</p>
+        <p>{text}</p>
     </div>
   );
 }
