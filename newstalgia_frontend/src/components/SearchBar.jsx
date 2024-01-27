@@ -8,7 +8,7 @@ const SearchBar = () => {
     console.log(`Searching for: ${input}`);
 
     // todo: fill up endpoint, store data (search result) in useState
-    const searchEndpoint = "";
+    const searchEndpoint = `http:localhost3000/news/${input}`;
 
     fetch(searchEndpoint, {
       method: "POST",
