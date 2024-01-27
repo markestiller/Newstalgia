@@ -5,6 +5,7 @@ const cors = require("cors");
 
 const indexRouter = require("./routes/index");
 const newsRouter = require("./routes/news");
+const chatRouter = require("./routes/chat");
 
 const errorHandler = require("./error-handler");
 
@@ -20,6 +21,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use("/", indexRouter);
 app.use("/news", newsRouter);
+app.use("/chat", chatRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
