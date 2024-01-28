@@ -5,20 +5,20 @@ import NewsArticle from "./newsArticle";
 const Articles = () => {
   const [articles, setArticles] = useState([]);
   useEffect(() => {
-    fetch("http:localhost3000/news/home", {
-      method: "POST",
+    fetch("http://localhost:3000/news/home", {
+      method: "GET",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ input }),
+      // body: JSON.stringify({ input }),
     })
       .then((response) => response.json())
       .then((data) => {
         setArticles(
           data["articles"].map((article) => ({
             heading: article.title,
-            authors: article.author,
-            content: article.content,
+            author: article.author,
+            description: article.description,
           }))
         );
       })
@@ -50,8 +50,8 @@ const Articles = () => {
         <li key={index}>
           <NewsArticle
             heading={article.heading}
-            authors={article.author}
-            content={article.content}
+            author={article.author}
+            description={article.description}
           />
         </li>
       ))}
