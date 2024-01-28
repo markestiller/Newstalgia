@@ -4,6 +4,6 @@
     flex-direction: row;
 }
 
-NewsArticle:nth-child(3n) {
+/* NewsArticle:nth-child(3n) {
     flex-basis: 100%;
-}
+} */

@@ -1,6 +1,7 @@
 .news-article {
     /* border: 1px red solid; */
     padding: 20px;
+    max-width: 47vw;
 }
 
 .heading {
