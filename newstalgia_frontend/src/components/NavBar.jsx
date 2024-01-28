@@ -2,6 +2,7 @@ import React from "react";
 import hamicon from "../assets/speakicon.png";
 import noteicon from "../assets/noteicon.png";
 import "./NavBar.css"
+import Notepad from "./Notepad";
 
 const NavBar = () => {
   return (
@@ -10,7 +11,7 @@ const NavBar = () => {
         <ul>
           <li className="mb-2">
             <a href="#">
-              <img src={noteicon} className="w-25 h-25" alt="Notepad" />
+              <Notepad/>
             </a>
           </li>
           <li className="mb-2">
