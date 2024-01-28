@@ -1,6 +1,6 @@
 .newstalgia-title {
     display: flex;
     justify-content: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 150px;
 }

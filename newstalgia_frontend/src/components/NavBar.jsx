@@ -1,23 +1,26 @@
 import React from "react";
-import hamtaro from "../assets/hamtaro.png";
-import notepad from "../assets/notepad.png";
+import hamicon from "../assets/speakicon.png";
+import noteicon from "../assets/noteicon.png";
+import "./NavBar.css"
 
 const NavBar = () => {
   return (
-    <div className="bg-gray-800 text-white w-1/12 p-4 z-5">
-      <ul>
-        <li className="mb-2">
-          <a href="#">
-            <img src={notepad} className="w-8 h-12" alt="Notepad" />
-          </a>
-        </li>
-        <li className="mb-2">
-          <a href="#">
-            <img src={hamtaro} className="w-8 h-12" alt="Hamtaro" />
-          </a>
-        </li>
+    <>
+      <div className="nav-items">
+        <ul>
+          <li className="mb-2">
+            <a href="#">
+              <img src={noteicon} className="w-25 h-25" alt="Notepad" />
+            </a>
+          </li>
+          <li className="mb-2">
+            <a href="#">
+              <img src={hamicon} className="w-25 h-25" alt="Hamtaro" />
+            </a>
+          </li>
       </ul>
-    </div>
+      </div>
+    </>
   );
 };
 

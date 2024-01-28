@@ -1,5 +1,9 @@
 .articles {
-    border: 1px solid aqua;
+    /* border: 1px solid aqua; */
     display: flex;
     flex-direction: row;
+}
+
+NewsArticle:nth-child(3n) {
+    flex-basis: 100%;
 }

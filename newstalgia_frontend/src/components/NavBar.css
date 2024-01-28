@@ -1,0 +1,10 @@
+.nav-items {
+    background-color: #6f6f6f;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    /* border: 1px solid aqua; */
+    justify-content: center;
+    height: 100vh;
+    width: 5vw;
+}
