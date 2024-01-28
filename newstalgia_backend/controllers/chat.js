@@ -27,7 +27,7 @@ const generateResponse = async (message) => {
       model: "command",
       message,
       chatHistory,
-      promptTruncation: "AUTO",
+      promptTruncation: "OFF",
       citationQuality: "accurate",
       connectors: [],
       documents: [],
