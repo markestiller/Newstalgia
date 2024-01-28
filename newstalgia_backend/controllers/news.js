@@ -1,6 +1,6 @@
 const fetch = require("node-fetch");
 
-const NEWS_API_KEY = "f819ffdf37d140c3889fc99de73b594f";
+const NEWS_API_KEY = "bb3cb8316ab6402cb4af3f2b9ba4a3d2";
 const pageSize = 4;
 const baseUrl = "https://newsapi.org/v2/top-headlines";
 
